@@ -1,4 +1,5 @@
-import { google, lucia } from "../../../lib/auth";
+import { lucia } from "../../../lib/auth";
+import { google } from "../../../lib/test";
 import { OAuth2RequestError } from "arctic";
 import { generateId } from "lucia";
 import { db, user, eq } from "astro:db";
