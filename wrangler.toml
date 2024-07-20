@@ -1,0 +1,6 @@
+name = "astro-cf-env"
+compatibility_date = "2024-07-20"
+pages_build_output_dir = "./dist"
+
+[vars]
+GOOGLE_REDIRECT_URI = "https://astro-cf-env.pages.dev/login/google/callback"
